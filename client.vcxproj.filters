@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="component">
+      <UniqueIdentifier>{18DEAB42-8448-60B9-CD86-115F39303E0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{9F35977C-8B6C-980D-3459-7E10206F140F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\demonware">
+      <UniqueIdentifier>{D0BE79B1-BC8C-6DB7-A520-DEDD918D491C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\demonware\servers">
+      <UniqueIdentifier>{4951DD03-354B-0656-1EB8-9C660A516CC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\demonware\services">
+      <UniqueIdentifier>{C36A897F-2FA2-D116-38AC-353AA462F80F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\ui_scripting">
+      <UniqueIdentifier>{FEAE4C2D-6AC5-4AC3-B33C-D6E41F921B4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="launcher">
+      <UniqueIdentifier>{7748346B-6315-8F76-8C2E-7D1E785AC404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="launcher\html">
+      <UniqueIdentifier>{DBAD4498-476E-C0CE-10A9-094C7C2805AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader">
+      <UniqueIdentifier>{3CB0DB0B-2852-06E2-110D-1A36FD4D8D32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{202B5BA7-8C95-0F1E-D5D3-C0C3417DED72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\dw">
+      <UniqueIdentifier>{6AAC2145-560F-B1E9-FF94-E99FEBD67C6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steam">
+      <UniqueIdentifier>{9F586110-0B6D-89C1-D4EE-2C2140C285F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="steam\interfaces">
+      <UniqueIdentifier>{B2DFBB30-9ED8-DA82-C70A-C007B362BA8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="updater">
+      <UniqueIdentifier>{1AE6A73E-86C5-26DA-8FDD-B1B0FB3B8D3B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\client\component\auth.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\chat.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\client_command.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\command.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\console.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\console_command.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\dedicated.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\game_event.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\getinfo.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\integrity.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\localized_strings.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\name.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\network.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\party.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\profile_infos.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\scheduler.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\server_list.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\splash.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\steam_proxy.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\ui_scripting.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\updater.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\component\workshop.hpp">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\bit_buffer.hpp">
+      <Filter>game\demonware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\byte_buffer.hpp">
+      <Filter>game\demonware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\data_types.hpp">
+      <Filter>game\demonware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\keys.hpp">
+      <Filter>game\demonware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\reply.hpp">
+      <Filter>game\demonware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\server_registry.hpp">
+      <Filter>game\demonware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\servers\auth3_server.hpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\servers\base_server.hpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\servers\lobby_server.hpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\servers\service_server.hpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\servers\stun_server.hpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\servers\tcp_server.hpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\servers\udp_server.hpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\servers\umbrella_server.hpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\service.hpp">
+      <Filter>game\demonware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services.hpp">
+      <Filter>game\demonware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdAnticheat.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdBandwidthTest.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdContentStreaming.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdCounter.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdDDL.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdDML.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdEventLog.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdFacebook.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdGroup.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdLeague.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdLeague2.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdMarketingComms.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdMarketplace.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdMatchMaking.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdPresence.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdProfiles.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdPublisherVariables.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdReward.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdRichPresence.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdStats.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdStats2.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdStats3.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdStorage.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdTeams.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdTitleUtilities.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdUNK63.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\demonware\services\bdUserGroups.hpp">
+      <Filter>game\demonware\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\fragment_handler.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\game.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\structs.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\symbols.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\ui_scripting\execution.hpp">
+      <Filter>game\ui_scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\ui_scripting\script_value.hpp">
+      <Filter>game\ui_scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\ui_scripting\types.hpp">
+      <Filter>game\ui_scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\game\utils.hpp">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\launcher\html\dispatch.hpp">
+      <Filter>launcher\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\launcher\html\doc_host_ui_handler.hpp">
+      <Filter>launcher\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\launcher\html\html_argument.hpp">
+      <Filter>launcher\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\launcher\html\html_frame.hpp">
+      <Filter>launcher\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\launcher\html\html_window.hpp">
+      <Filter>launcher\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\launcher\html\internet_security_manager.hpp">
+      <Filter>launcher\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\launcher\html\ole_client_site.hpp">
+      <Filter>launcher\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\launcher\html\ole_in_place_frame.hpp">
+      <Filter>launcher\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\launcher\html\ole_in_place_site.hpp">
+      <Filter>launcher\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\launcher\html\service_provider.hpp">
+      <Filter>launcher\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\launcher\launcher.hpp">
+      <Filter>launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\launcher\window.hpp">
+      <Filter>launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\loader\component_interface.hpp">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\loader\component_loader.hpp">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\loader\loader.hpp">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\loader\tls.hpp">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\resource.hpp" />
+    <ClInclude Include="..\src\client\std_include.hpp" />
+    <ClInclude Include="..\src\client\steam\interface.hpp">
+      <Filter>steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\apps.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\client.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\controller.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\friends.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\game_server.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\game_server_stats.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\http.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\matchmaking.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\matchmaking_servers.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\networking.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\remote_storage.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\screenshots.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\ugc.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\unified_messages.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\user.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\user_stats.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\interfaces\utils.hpp">
+      <Filter>steam\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\steam\steam.hpp">
+      <Filter>steam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\updater\file_info.hpp">
+      <Filter>updater</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\updater\file_updater.hpp">
+      <Filter>updater</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\updater\progress_listener.hpp">
+      <Filter>updater</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\updater\update_cancelled.hpp">
+      <Filter>updater</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\updater\updater.hpp">
+      <Filter>updater</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\client\updater\updater_ui.hpp">
+      <Filter>updater</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\client\component\arxan.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\auth.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\bots.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\branding.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\chat.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\client_command.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\client_patches.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\colors.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\command.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\console.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\console_command.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\dedicated.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\dedicated_info.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\dedicated_patches.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\demonware.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\discord.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\dvars.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\dvars_patches.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\exception.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\extension.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\fov.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\game_event.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\game_log.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\game_settings.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\getinfo.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\icon.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\intro.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\localized_strings.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\loot.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\name.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\network.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\party.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\patches.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\profile_infos.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\rcon.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\scheduler.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\script.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\server_list.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\splash.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\status.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\steam_proxy.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\ui_scripting.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\updater.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\component\workshop.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\bit_buffer.cpp">
+      <Filter>game\demonware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\byte_buffer.cpp">
+      <Filter>game\demonware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\keys.cpp">
+      <Filter>game\demonware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\reply.cpp">
+      <Filter>game\demonware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\servers\auth3_server.cpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\servers\base_server.cpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\servers\lobby_server.cpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\servers\stun_server.cpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\servers\tcp_server.cpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\servers\udp_server.cpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\servers\umbrella_server.cpp">
+      <Filter>game\demonware\servers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdAnticheat.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdBandwidthTest.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdContentStreaming.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdCounter.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdDDL.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdDML.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdEventLog.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdFacebook.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdGroup.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdLeague.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdLeague2.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdMarketingComms.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdMarketplace.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdMatchMaking.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdPresence.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdProfiles.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdPublisherVariables.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdReward.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdRichPresence.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdStats.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdStats2.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdStats3.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdStorage.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdTeams.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdTitleUtilities.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdUNK63.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\demonware\services\bdUserGroups.cpp">
+      <Filter>game\demonware\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\fragment_handler.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\symbols.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\ui_scripting\execution.cpp">
+      <Filter>game\ui_scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\ui_scripting\script_value.cpp">
+      <Filter>game\ui_scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\ui_scripting\types.cpp">
+      <Filter>game\ui_scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\game\utils.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\launcher\html\html_argument.cpp">
+      <Filter>launcher\html</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\launcher\html\html_frame.cpp">
+      <Filter>launcher\html</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\launcher\html\html_window.cpp">
+      <Filter>launcher\html</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\launcher\launcher.cpp">
+      <Filter>launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\launcher\window.cpp">
+      <Filter>launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\loader\component_loader.cpp">
+      <Filter>loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\loader\loader.cpp">
+      <Filter>loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\loader\tls.cpp">
+      <Filter>loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\main.cpp" />
+    <ClCompile Include="..\src\client\std_include.cpp" />
+    <ClCompile Include="..\src\client\steam\interface.cpp">
+      <Filter>steam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\apps.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\client.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\controller.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\friends.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\game_server.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\game_server_stats.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\http.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\matchmaking.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\matchmaking_servers.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\networking.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\remote_storage.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\screenshots.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\ugc.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\unified_messages.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\user.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\user_stats.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\interfaces\utils.cpp">
+      <Filter>steam\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\steam\steam.cpp">
+      <Filter>steam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\updater\file_updater.cpp">
+      <Filter>updater</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\updater\updater.cpp">
+      <Filter>updater</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client\updater\updater_ui.cpp">
+      <Filter>updater</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\client\resources\dw\core_ffotd_tu32_593.ff">
+      <Filter>resources\dw</Filter>
+    </None>
+    <None Include="..\src\client\resources\dw\experiments_tu32.gz">
+      <Filter>resources\dw</Filter>
+    </None>
+    <None Include="..\src\client\resources\dw\featured_cards-english_tu32.gz">
+      <Filter>resources\dw</Filter>
+    </None>
+    <None Include="..\src\client\resources\dw\keys.txt">
+      <Filter>resources\dw</Filter>
+    </None>
+    <None Include="..\src\client\resources\dw\playlists_tu32.gz">
+      <Filter>resources\dw</Filter>
+    </None>
+    <None Include="..\src\client\resources\dw\qosconfig4.csv">
+      <Filter>resources\dw</Filter>
+    </None>
+    <None Include="..\src\client\resources\icon.ico">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\client\resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\src\client\resources\logo.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="..\src\client\resources\splash.jpg">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
